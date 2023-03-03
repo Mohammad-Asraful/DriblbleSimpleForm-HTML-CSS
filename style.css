@@ -202,15 +202,15 @@ input {
   gap: 10px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .profile-div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .profile-div {
     display: flex;
     flex-direction: column;
