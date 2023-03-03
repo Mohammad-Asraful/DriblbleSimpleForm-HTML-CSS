@@ -52,8 +52,7 @@ section {
 }
 
 .signup-btn {
-  display: flex;
-  gap: 6px;
+  display: inline-block;
   background-color: #fff;
   margin: 20px 0;
   text-align: center;
@@ -103,6 +102,7 @@ input {
 }
 
 .account-create button {
+  border: none;
   width: 100%;
   border-radius: 50px;
   background-color: blue;
