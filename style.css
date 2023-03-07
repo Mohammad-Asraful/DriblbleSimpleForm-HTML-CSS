@@ -40,9 +40,15 @@ section {
   height: 580px;
 }
 
-.logo-div {
+.signup-header {
   text-align: center;
   line-height: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  .signup-header .signup-headline {
+    font-size: 20px;
+  }
 }
 
 .login-div img {
